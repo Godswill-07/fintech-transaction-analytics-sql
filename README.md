@@ -85,7 +85,7 @@ An audit and integrity check of the loaded data:
 | Ten largest successful transactions (anti-money-laundering review) | All are the same amount, ₦157,569 (cash-ins and ATM withdrawals), which points to a ceiling in the generated amounts |
 
 ## Data model
-![Entity relationship diagram](Entity relationship diagram.png)
+![Entity relationship diagram](images/erd.png)
 
 - `fin.customers`: customer_id, signup_date, state, segment (Retail/SME), kyc_tier
 - `fin.merchants`: merchant_id, merchant_name, category, state
